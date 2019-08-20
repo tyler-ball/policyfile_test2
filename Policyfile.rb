@@ -13,4 +13,4 @@ default_source :supermarket
 run_list 'policyfile_test2::default'
 
 # Specify a custom source for a single cookbook:
-cookbook 'policyfile_test2', path: '.'
+cookbook 'policyfile_test2', github: "tyler-ball/policyfile_test2"
