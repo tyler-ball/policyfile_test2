@@ -1,0 +1,42 @@
+{
+  "revision_id": "4957f59418ed3bfbbf3481c5fc7b99d4df71e6478d4f7e99793b232474fb72d6",
+  "name": "policyfile_test2",
+  "run_list": [
+    "recipe[policyfile_test2::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "policyfile_test2": {
+      "version": "0.1.0",
+      "identifier": "93d44bdd51c00a515e4e4eabf04975733ffe80b0",
+      "dotted_decimal_identifier": "41610243877224458.22903163533914185.129137855332528",
+      "cache_key": "policyfile_test2-4238b264788f0055e4f2559c248ad43a4db10055",
+      "origin": "git://github.com/tyler-ball/policyfile_test2.git",
+      "source_options": {
+        "git": "git://github.com/tyler-ball/policyfile_test2.git",
+        "revision": "4238b264788f0055e4f2559c248ad43a4db10055"
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "policyfile_test2",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "policyfile_test2 (0.1.0)": [
+
+      ]
+    }
+  }
+}
